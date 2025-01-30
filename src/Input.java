@@ -27,7 +27,7 @@ public class Input
 
         isSmoker = scanner.nextBoolean();
 
-        System.out.println("Patient Report -\nName: " + name + "\nAge: " + age + "\nWeight: " + weight + "\nSmoker: " + isSmoker);
+        System.out.println("\nPatient Report -\nName: " + name + "\nAge: " + age + "\nWeight: " + weight + "\nSmoker: " + isSmoker);
 
         scanner.close();
     }
